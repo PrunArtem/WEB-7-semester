@@ -1,0 +1,39 @@
+body, #container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#people {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1000px;
+}
+
+#person {
+    text-align: center;
+    width: 21%;
+    margin: 8px;
+    border: 2px solid #296846;
+    background-color: #ccf8df;
+    padding: 10px;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px 0;
+    width: 500px;
+    border: 1px solid #13eccb;
+    background-color: #ccf8df;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #13eccb;
+}
+
+button:active {
+    background-color: #ccf8df;
+}
